@@ -1,42 +1,38 @@
-header {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(166, 255, 0);
-    display: block;
-    color: white;
-    text-align: center;
-  }
-
-  nav{
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    font-size: large;
-    padding-left: 40px;
-    background-color: rgb(114, 114, 114)
-  }
-
-  section {
-    max-width: 3000px;
-    margin: 0px auto;
-    padding: 0px;
+.footer {
     display: flex;
-  }
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 185px;
+    height: 38px;
+    position: absolute;
+    left: 628px;
+    bottom: 20px;
+}
 
-  .left-column {
-    background-color: #ff0000;
-  }
+.pagination-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    margin-top: 350px;
+    margin-left: -100px;
+}
 
-  .center-column {
-    background-color: rgb(238, 255, 0);
-  }
+.prev {
+    border:2px solid #000000; 
+    color:#000000; 
+}
 
-  .right-column {
-    background-color: rgb(94, 95, 95);
-  }
+.next {
+    border:2px solid #000000; 
+    color:#000000;
+}
 
-  footer {
-    padding: 1px;
-    text-align: center;
-    border-style: groove;
-  }
+.page-number {
+    font-family: 'JejuGothic';
+    font-size: 28px;
+}
